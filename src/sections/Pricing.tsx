@@ -71,7 +71,7 @@ const Pricing = () => {
             <div
               key={tier.title}
               className={twMerge(
-                `p-10 rounded-3xl shadow-[0_7px_14px_#eaeaea] border border-[#f1f1f1] max-w-xs w-full`,
+                `card`,
                 tier.inverse && `border-black bg-black text-white`
               )}
             >

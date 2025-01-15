@@ -26,4 +26,8 @@
   .para {
     @apply text-xl text-[#010d3e] tracking-tight mt-6;
   }
+
+  .card {
+    @apply p-10 rounded-3xl shadow-[0_7px_14px_#eaeaea] border border-[#f1f1f1] max-w-xs w-full;
+  }
 }
