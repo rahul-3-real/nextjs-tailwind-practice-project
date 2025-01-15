@@ -16,4 +16,14 @@
   .logo-ticker-image {
     @apply h-8 w-auto;
   }
+
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight;
+  }
+  .title {
+    @apply text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text mt-6 pb-[5px];
+  }
+  .para {
+    @apply text-xl text-[#010d3e] tracking-tight mt-6;
+  }
 }
