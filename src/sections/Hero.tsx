@@ -1,14 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 
-import {
-  motion,
-  useScroll,
-  useTransform,
-  useMotionValueEvent,
-} from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 import ArrowRight from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
