@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import Image from "next/image";
 
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -7,7 +8,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import productImage from "@/assets/product-image.png";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
-import { useRef } from "react";
 
 const ProductShowcase = () => {
   const productRef = useRef(null);
@@ -45,7 +45,7 @@ const ProductShowcase = () => {
             className="hidden md:block absolute -right-36 -top-32"
             height={262}
             width={262}
-            style={{ translateY: translateY }}
+            style={{ translateY }}
           />
           <motion.img
             src={tubeImage.src}
@@ -53,7 +53,7 @@ const ProductShowcase = () => {
             className="hidden md:block absolute bottom-24 -left-36"
             height={248}
             width={248}
-            style={{ translateY: translateY }}
+            style={{ translateY }}
           />
         </div>
       </div>

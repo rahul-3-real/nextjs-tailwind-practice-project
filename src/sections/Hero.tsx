@@ -66,7 +66,7 @@ const Hero = () => {
               width={220}
               height={220}
               className="hidden md:block -top-8 -left-32 md:absolute"
-              style={{ translateY: translateY }}
+              style={{ translateY }}
             />
             <motion.img
               src={noodleImage.src}
@@ -74,7 +74,7 @@ const Hero = () => {
               width={220}
               height={220}
               className="hidden lg:block top-[524px] left-[448px] lg:absolute"
-              style={{ translateY: translateY, rotate: 30 }}
+              style={{ translateY, rotate: 30 }}
             />
           </div>
         </div>
