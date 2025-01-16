@@ -10,4 +10,4 @@ This project is a modern web application built using **Next.js**, **Tailwind CSS
 
 ## Project Preview
 
-![Layout Preview](https://github.com/rahul-3-real/nextjs-tailwind-practice-project/extras/layout.jpg)
+<img src="https://raw.githubusercontent.com/rahul-3-real/nextjs-tailwind-practice-project/main/extras/layout.jpg" alt="Layout Preview" style="width:100%; border-radius:8px;">
